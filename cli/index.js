@@ -57,16 +57,11 @@ program
       for (const file of configFiles) {
         await cp(join(sourceDir, file), join(targetDir, file));
       }
-
-      install.on("close", (code) => {
-        if (code === 0) {
-          console.log(`
-            🦊 Project created successfully!
-            cd ${projectName}
-            npm run dev
-          `);
-        }
-      });
+      console.log(`
+        🦊 Project created successfully!
+        cd ${projectName}
+        npm run dev
+      `);
     } catch (error) {
       console.error("Error:", error);
       process.exit(1);
