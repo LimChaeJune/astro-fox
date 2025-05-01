@@ -42,7 +42,7 @@ Perfect Lighthouse scores across all categories: Performance, Accessibility, Bes
 npm install -g astro-fox
 
 # Create a new project
-astro-fox create my-blog
+astro-fox init my-blog
 
 # Navigate to project folder
 cd my-blog

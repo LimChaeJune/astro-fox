@@ -44,7 +44,7 @@
 npm install -g astro-fox
 
 # 새 프로젝트 생성
-astro-fox create my-blog
+astro-fox init my-blog
 
 # 프로젝트 폴더로 이동
 cd my-blog
