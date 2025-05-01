@@ -40,8 +40,8 @@
 ### CLI로 시작하기
 
 ```bash
-# npm을 통해 전역 설치
-npm install -g astro-fox
+# npm으로 전역 설치
+npm install -g @cj.lim/astro-fox
 
 # 새 프로젝트 생성
 astro-fox init my-blog
@@ -147,23 +147,23 @@ pnpm run format:check
 
 ## 📖 CLI 사용 가이드
 
-Astro Fox CLI는 새 프로젝트를 빠르게 생성하고 설정할 수 있는 도구입니다.
+Astro Fox는 CLI로 새 프로젝트를 시작하고 콘텐츠를 만들 수 있습니다.
 
 ```bash
-# npm을 통해 전역 설치
-npm install -g astro-fox
+# @cj.lim/astro-fox 설치
+npm install -g @cj.lim/astro-fox
 
 # 새 프로젝트 생성
-astro-fox init <project-name>
+astro-fox init <프로젝트-이름>
 
-# 새 블로그 글 생성
+# 새 블로그 포스트 생성
 astro-fox blog "새 포스트 제목" -d "간단한 설명" -t "태그1,태그2"
 
 # 새 로그 항목 생성
 astro-fox log "오늘의 로그" -d "오늘 한 일" -t "업무,학습"
 
 # 새 프로젝트 항목 생성
-astro-fox projects "프로젝트 알파" -d "프로젝트 상세 내용" -c "회사명" -s "2024-01-01" -e "2024-12-31"
+astro-fox projects "프로젝트 알파" -d "프로젝트 상세 정보" -c "내 회사" -s "2024-01-01" -e "2024-12-31"
 
 # 도움말 보기
 astro-fox --help
@@ -205,7 +205,7 @@ frontmatter 스키마는 `src/content/config.ts`에서 Astro의 Content Collecti
 
 ## 🛠️ 주요 설정 파일
 
-다음 파일들은 사이트를 개인화하기 위해 수정해야 합니다:
+다음 파일들은 사이트를 개인화하기 위해 수정해야 합니다.
 
 ### Astro 설정 -`astro.config.mjs`
 

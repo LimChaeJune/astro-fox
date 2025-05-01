@@ -39,7 +39,7 @@ Perfect Lighthouse scores across all categories: Performance, Accessibility, Bes
 
 ```bash
 # Install globally with npm
-npm install -g astro-fox
+npm install -g @cj.lim/astro-fox
 
 # Create a new project
 astro-fox init my-blog
@@ -149,8 +149,8 @@ The `[...slug].astro` files are used for dynamic routing in Astro:
 Astro Fox CLI is a tool for quickly creating and configuring new projects.
 
 ```bash
-# install astro-fox
-npm install -g astro-fox
+# install @cj.lim/astro-fox
+npm install -g @cj.lim/astro-fox
 
 # Create a new project
 astro-fox init <project-name>
